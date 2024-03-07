@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<style>
+  .output-template {
+    background-color: #ffcccc; 
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    margin-top: 20px; /* Margin from the top */
+  }
+
+  .ochat {
+    font-weight: bold;
+    color: #000000; 
+  }
+
+  .output-display {
+    margin-top: 10px; 
+  }
+</style>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col">
+      <p class="fw-bold">Master Chef: Hi, I'm the chef here. Which recipe do you want, sir?</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <form action="{% url 'get-recipe' %}" method="post">
+        {% csrf_token %}
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" name="name" placeholder="Enter dish name" value="{{ dish_name }}">
+          <br>
+          <button class="btn btn-outline-success" type="submit" id="button-addon2">Get Recipe</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-4 output-template">
+  <div class="row">
+    <div class="col">
+      <p class="ochat">Master Chef: Here is the recipe provided !!!</p>
+      <section class="output-display">
+        <pre>{{ recipe }}</pre>
+      </section>
+    </div>
+  </div>
+</div>
+
+
+{% endblock content %}
