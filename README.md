@@ -32,3 +32,22 @@ Steps | Description | Resources
 Steps | Description | Resources
 ------|-------------|----------
 1) | Execute the provided Jupyter code to fine-tune Mistral and upload adapter files to Hugging Face's models | [🔗](https://github.com/Apil12/NLP_GENAI/blob/master/Mixtral_model/Mixtral_finetuned_model.ipynb)
+
+# D) Quantization of LLM To GGUF format and Testing it
+
+## Quantization GGUF (GPT-Generated Unified Format)
+
+## Conversion Of LLM Into GGUF Format 🛠️🪛
+*File:* [file link](https://github.com/Apiljungthapa/NLP_GENAI/blob/master/GGUF%20Model%20File/Quantize_LLMs_to_GGUF.ipynb) 
+
+## Testing GGUF Model using llama_cpp(Llama), llama_index(LlamaCPP), langchain(LlamaCpp) 📝
+*Testing Tools:*
+*File:* [file link](https://github.com/Apiljungthapa/NLP_GENAI/blob/master/GGUF%20Model%20File/Testing_GGUF_file_with_different_methods.ipynb) 
+1. llama_cpp (Llama)
+2. llama_index (LlamaCPP)
+3. langchain (LlamaCpp)
+
+## Testing GGUF Model using C-Transformers 📝
+*Testing Tools:*
+- C-Transformers: [Tool link](https://github.com/Apiljungthapa/NLP_GENAI/blob/master/GGUF%20Model%20File/Tessting_using_c_transformers.ipynb
+)
