@@ -6,8 +6,8 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 ## 1.1 Access Chat Templates for Fine-Tuning Various Models
 
 | Notebook File                           | Link              |
-|----------------------------------------|-------------------|
-| Get Chat Template for LLMs Fine-Tuning (Code) | [🔗]()    |
+|----------------------------------------|-------------------
+| Get Chat Template for LLMs Fine-Tuning (Code) | [🔗]()    
 
 
 ## a) Steps for Fine-Tuning Llama 2:
