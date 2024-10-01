@@ -39,7 +39,22 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 |-------|-------------|-----------|
 | 1)    | Execute the provided Jupyter code to fine-tune Mistral and upload adapter files to Hugging Face's models | [🔗 Jupyter Notebook](https://github.com/Apil12/NLP_GENAI/blob/master/Mixtral_model/Mixtral_finetuned_model.ipynb) |
 
-# D) Quantization of LLM To GGUF format and Testing it
+# E) CUDA and PyTorch Setup Guide
+
+This guide provides detailed instructions on how to set up CUDA and PyTorch for efficient machine learning model training and inference. You can download the full guide as a PDF using the link below.
+
+| Steps | Description | Resources |
+|-------|-------------|-----------|
+| 1)    | Download the detailed guide for setting up CUDA and PyTorch. | [🔗 CUDA and PyTorch Setup Guide (PDF)](https://github.com/Apiljungthapa/NLP_GENAI/blob/master/cuda%20and%20pytourch%20setup%20for%20llm.pdf) |
+
+## Summary of Setup Process
+
+1. **Install CUDA**: Install the necessary CUDA Toolkit and drivers for your NVIDIA GPU.
+2. **Install PyTorch with CUDA Support**: Follow the PyTorch installation steps to ensure it can use your GPU.
+3. **Verify Installation**: Test your setup to make sure CUDA is properly detected and working with PyTorch.
+
+For detailed instructions, refer to the PDF guide linked in the table above.
+
 
 ## Quantization GGUF (GPT-Generated Unified Format)
 
