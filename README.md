@@ -39,7 +39,7 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 |-------|-------------|-----------|
 | 1)    | Execute the provided Jupyter code to fine-tune Mistral and upload adapter files to Hugging Face's models | [🔗 Jupyter Notebook](https://github.com/Apil12/NLP_GENAI/blob/master/Mixtral_model/Mixtral_finetuned_model.ipynb) |
 
-# E) CUDA and PyTorch Setup Guide
+### D) CUDA and PyTorch Setup Guide
 
 This guide provides detailed instructions on how to set up CUDA and PyTorch for efficient machine learning model training and inference. You can download the full guide as a PDF using the link below.
 
