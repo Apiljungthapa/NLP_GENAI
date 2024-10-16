@@ -11,7 +11,7 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 
 # Fine-Tuning Steps for Various Models
 
-### a) Steps for Fine-Tuning Llama 2:
+### a) Steps for Fine-Tuning Llama 2,3:
 
 | Steps | Description | Resources |
 |-------|-------------|-----------|
