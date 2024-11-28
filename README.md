@@ -9,7 +9,7 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 |----------------------------------------|-------------------
 | Get Chat Template for LLMs Fine-Tuning (Code) | [🔗]()      
 
-# Fine-Tuning Steps for Various Models
+# Fine-Tuning Steps for Various Model
 
 ### a) Steps for Fine-Tuning Llama 2,3:
 
