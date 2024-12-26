@@ -1,4 +1,4 @@
-# Fine-Tuning Large Language Model (LLMs) on Colab Free GPU's (Including 7B Parameters with Inference's)
+# Fine-Tuning Large Language Model (LLMs) on Colab's Free GPU's (Including 7B Parameters with Inference's)
 
 Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for your specific needs using your own dataset. Whether it's for your business, school, or any other endeavor, you can create a customized Q&A chatbot tailored to your requirements. Let's explore how you can structure a chat template and fine-tune an LLM model using Hugging Face Transformers.
 
