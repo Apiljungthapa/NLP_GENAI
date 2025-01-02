@@ -15,7 +15,7 @@ Welcome! Here, you'll learn how to fine-tune any large language model (LLM) for 
 
 | Steps | Description | Resources |
 |-------|-------------|-----------|
-| 1)    | Gather questions and answers in a text file | [🔗 Dataset](https://github.com/Apil12/NLP_GENAI/blob/master/LLAMA2_FINETUNED_MODEL/train.txt) |
+| 1)    | Gather questions and answers in a text files | [🔗 Dataset](https://github.com/Apil12/NLP_GENAI/blob/master/LLAMA2_FINETUNED_MODEL/train.txt) |
 | 2)    | Share the prepared dataset on Hugging Face's repository | [🔗 Hugging Face Repository](https://huggingface.co/datasets/Jevvan123/lmmma_2dataset) |
 | 3)    | Execute the provided Jupyter code to fine-tune Llama 2 | [🔗 Jupyter Notebook](https://github.com/Apil12/NLP_GENAI/blob/master/LLAMA2_FINETUNED_MODEL/fine_tune_models.ipynb) |
 | 4)    | Evaluate the performance of the fine-tuned model | [🔗 Evaluation Notebook](https://github.com/Apil12/NLP_GENAI/blob/master/LLAMA2_FINETUNED_MODEL/Testing_LLMA2.ipynb) |
